@@ -29,7 +29,7 @@
     <p>Lucerna es un juego de puzzles creado por FelipeSchT ("nosotros"). Esta política explica qué datos se usan cuando juegas.</p>
 
     <h3>Lo que guarda el juego</h3>
-    <p>Tu progreso (niveles resueltos, estrellas, tiempos, racha del desafío diario, pistas, compras hechas, idioma y ajustes) se guarda <strong>solo en tu teléfono</strong>. No subimos tu partida a ningún servidor, no pedimos cuentas, ni nombre, ni correo, ni ubicación precisa. Si desinstalas el juego, ese progreso se borra. El código de transferencia que puedes copiar en <em>Respaldo y créditos</em> lo guardas tú donde quieras: no pasa por nosotros.</p>
+    <p>Tu progreso (niveles resueltos, estrellas, tiempos, racha del desafío diario, pistas, compras hechas, idioma y ajustes) se guarda <strong>en tu teléfono</strong>. No es necesario crear una cuenta para jugar. Solo si activas la copia en la nube (ver más abajo) se guarda también una copia de tu progreso en internet. No pedimos tu ubicación precisa. Si desinstalas el juego, ese progreso se borra. El código de transferencia que puedes copiar en <em>Respaldo y créditos</em> lo guardas tú donde quieras: no pasa por nosotros.</p>
 
     <h3>Recordatorios</h3>
     <p>Si los activas, el juego programa en tu teléfono un recordatorio del desafío diario. Son avisos locales: no usamos servidores de notificaciones ni datos para enviarlos. Puedes apagarlos en <em>Ajustes</em>.</p>
@@ -41,6 +41,17 @@
       <li>En iPhone, el sistema te pregunta si permites el rastreo. Si no lo permites, igual puedes jugar y verás anuncios no personalizados.</li>
       <li>Puedes restablecer o limitar el identificador de publicidad en los ajustes de tu teléfono.</li>
       <li>Los anuncios se limitan a contenido apto para todo público.</li>
+    </ul>
+
+    <h3>Cuenta opcional y copia en la nube</h3>
+    <p>En <em>Ajustes</em> puedes, si quieres, iniciar sesión con tu cuenta de Google para guardar tu progreso y recuperarlo en otro teléfono. Para eso usamos <strong>Firebase Authentication</strong> y <strong>Cloud Firestore</strong> de Google. Al iniciar sesión, Firebase recibe de Google tu correo, tu nombre y un identificador de usuario, y en Firestore guardamos solo tu progreso del juego (el mismo código del respaldo manual) junto a ese identificador. Lo usamos únicamente para devolverte tu progreso: no lo usamos para anuncios ni lo compartimos con nadie.</p>
+    <p>Si no inicias sesión, nada de esto ocurre. Si cierras sesión, tu copia queda guardada hasta que la borres.</p>
+
+    <h3 id="borrar-cuenta">Cómo borrar tu cuenta y tus datos</h3>
+    <ul>
+      <li><strong>Desde el juego:</strong> <em>Ajustes → Copia en la nube → Borrar mi cuenta y la copia en la nube</em>. Se borran al instante tu cuenta del juego y tu copia en la nube.</li>
+      <li><strong>Sin el juego:</strong> escríbenos a <a href="mailto:felipeschnettlert@gmail.com?subject=Borrar%20mi%20cuenta%20de%20Lucerna">felipeschnettlert@gmail.com</a> desde el correo de tu cuenta de Google, con el asunto "Borrar mi cuenta de Lucerna". La borramos, junto con tu copia en la nube, en un plazo de 30 días y te avisamos.</li>
+      <li>El progreso que está en tu teléfono se borra al desinstalar el juego.</li>
     </ul>
 
     <h3>Estadísticas de uso</h3>
@@ -55,7 +66,7 @@
     <p>Lucerna es un juego para todas las edades, pero no está dirigido específicamente a menores de 13 años y no recopilamos a sabiendas datos personales de niños. Si crees que un niño nos envió datos, escríbenos y los eliminaremos.</p>
 
     <h3>Tus derechos</h3>
-    <p>Como no guardamos datos tuyos en servidores propios, no tenemos información personal que entregarte o borrar: para borrar tu progreso basta con desinstalar el juego. Para los datos que tratan Google (anuncios y estadísticas) y RevenueCat (compras), puedes ejercer tus derechos directamente con ellos, o escribirnos y te ayudamos: si nos indicas que quieres borrar tus estadísticas, pediremos a Google que las elimine.</p>
+    <p>Si no usas la copia en la nube, no guardamos datos tuyos en servidores: para borrar tu progreso basta con desinstalar el juego. Si la usas, puedes borrar tu cuenta y tu copia como se explica arriba, o pedirnos una copia de lo que tenemos guardado. Para los datos que tratan Google (anuncios y estadísticas) y RevenueCat (compras), puedes ejercer tus derechos directamente con ellos, o escribirnos y te ayudamos: si nos indicas que quieres borrar tus estadísticas, pediremos a Google que las elimine.</p>
 
     <h3>Cambios y contacto</h3>
     <p>Si cambiamos esta política, actualizaremos la fecha de arriba. Para cualquier duda, escríbenos a <a href="mailto:felipeschnettlert@gmail.com">felipeschnettlert@gmail.com</a>.</p>
@@ -66,7 +77,7 @@
     <p>Lucerna is a puzzle game made by FelipeSchT ("we"). This policy explains what data is used when you play.</p>
 
     <h3>What the game stores</h3>
-    <p>Your progress (solved levels, stars, times, daily challenge streak, hints, purchases made, language and settings) is stored <strong>only on your phone</strong>. We don't upload your game to any server, and we don't ask for an account, name, email or precise location. If you uninstall the game, that progress is deleted. The transfer code you can copy in <em>Backup &amp; credits</em> is kept by you wherever you want: it never goes through us.</p>
+    <p>Your progress (solved levels, stars, times, daily challenge streak, hints, purchases made, language and settings) is stored <strong>on your phone</strong>. You don't need an account to play. Only if you turn on cloud backup (see below) is a copy of your progress also stored online. We don't ask for your precise location. If you uninstall the game, that progress is deleted. The transfer code you can copy in <em>Backup &amp; credits</em> is kept by you wherever you want: it never goes through us.</p>
 
     <h3>Reminders</h3>
     <p>If you turn them on, the game schedules a daily challenge reminder on your phone. They are local notifications: we don't use notification servers or data to send them. You can turn them off in <em>Settings</em>.</p>
@@ -78,6 +89,17 @@
       <li>On iPhone, the system asks whether you allow tracking. If you don't, you can still play and will see non-personalized ads.</li>
       <li>You can reset or limit the advertising ID in your phone settings.</li>
       <li>Ads are limited to content suitable for all audiences.</li>
+    </ul>
+
+    <h3>Optional account and cloud backup</h3>
+    <p>In <em>Settings</em> you can, if you want, sign in with your Google account to back up your progress and restore it on another phone. For this we use Google's <strong>Firebase Authentication</strong> and <strong>Cloud Firestore</strong>. When you sign in, Firebase receives your email, name and a user identifier from Google, and in Firestore we store only your game progress (the same code as the manual backup) together with that identifier. We use it only to give your progress back to you: we don't use it for ads or share it with anyone.</p>
+    <p>If you don't sign in, none of this happens. If you sign out, your backup stays stored until you delete it.</p>
+
+    <h3 id="delete-account">How to delete your account and data</h3>
+    <ul>
+      <li><strong>In the game:</strong> <em>Settings → Cloud backup → Delete my account and cloud backup</em>. Your game account and cloud backup are deleted immediately.</li>
+      <li><strong>Without the game:</strong> email us at <a href="mailto:felipeschnettlert@gmail.com?subject=Delete%20my%20Lucerna%20account">felipeschnettlert@gmail.com</a> from your Google account's email, with the subject "Delete my Lucerna account". We will delete it, together with your cloud backup, within 30 days and let you know.</li>
+      <li>The progress stored on your phone is deleted when you uninstall the game.</li>
     </ul>
 
     <h3>Usage statistics</h3>
@@ -92,7 +114,7 @@
     <p>Lucerna is a game for all ages, but it is not specifically directed at children under 13 and we do not knowingly collect personal data from children. If you believe a child has sent us data, contact us and we will delete it.</p>
 
     <h3>Your rights</h3>
-    <p>Because we don't keep your data on our own servers, we have no personal information to give you or delete: to delete your progress, just uninstall the game. For the data handled by Google (ads and statistics) and RevenueCat (purchases), you can exercise your rights directly with them, or write to us and we'll help: if you tell us you want your statistics deleted, we will ask Google to delete them.</p>
+    <p>If you don't use cloud backup, we don't keep any of your data on servers: to delete your progress, just uninstall the game. If you use it, you can delete your account and backup as explained above, or ask us for a copy of what we store. For the data handled by Google (ads and statistics) and RevenueCat (purchases), you can exercise your rights directly with them, or write to us and we'll help: if you tell us you want your statistics deleted, we will ask Google to delete them.</p>
 
     <h3>Changes and contact</h3>
     <p>If we change this policy, we will update the date above. For any questions, write to <a href="mailto:felipeschnettlert@gmail.com">felipeschnettlert@gmail.com</a>.</p>
