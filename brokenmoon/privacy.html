@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Broken Moon Privacy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Baloo+2:wght@400;600&display=swap">
+<style>
+/* Una sola columna de lectura; tonos de la noche de la Luna Rota */
+:root {
+  --bg: #f6f4fb;
+  --fg: #221d33;
+  --muted: #5e5775;
+  --line: #dcd6ea;
+  --accent: #6b4fc4;
+  --mark: #fff1c2;
+  --display: "Lilita One", "Trebuchet MS", system-ui, sans-serif;
+  --body: "Baloo 2", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #15121f; --fg: #ebe7f5; --muted: #a9a2c0; --line: #2f2944; --accent: #b4a0ff; --mark: #4a3f14; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #15121f; --fg: #ebe7f5; --muted: #a9a2c0; --line: #2f2944; --accent: #b4a0ff; --mark: #4a3f14; color-scheme: dark }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 17px; line-height: 1.6; }
+main { max-width: 42rem; margin: 0 auto; padding-block: 48px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 28px; }
+header { display: grid; gap: 6px; border-bottom: 1px solid var(--line); padding-bottom: 20px; }
+h1 { font-family: var(--display); font-weight: 400; font-size: 2.4rem; line-height: 1.1; margin: 0; text-wrap: balance; }
+.meta { color: var(--muted); font-size: .95rem; margin: 0; }
+section { display: grid; gap: 8px; }
+h2 { font-family: var(--display); font-weight: 400; font-size: 1.35rem; margin: 0; color: var(--accent); text-wrap: balance; }
+p, ul { margin: 0; }
+ul { padding-left: 1.2rem; display: grid; gap: 4px; }
+a { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.mail { font-weight: 600; user-select: all; overflow-wrap: anywhere; }
+footer { border-top: 1px solid var(--line); padding-top: 16px; color: var(--muted); font-size: .9rem; }
+nav.langs { font-size: .95rem; color: var(--muted); display: flex; gap: 12px; flex-wrap: wrap; }
+nav.langs a[aria-current] { color: var(--fg); font-weight: 600; text-decoration: none; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <nav class="langs"><a href="privacidad.html" hreflang="es">Español</a> · <a href="privacy.html" hreflang="en" aria-current="page">English</a> · <a href="privacidade.html" hreflang="pt">Português</a></nav>
+    <h1>Broken Moon Privacy Policy</h1>
+    <p class="meta">Last updated: November 21, 2026</p>
+  </header>
+
+  <section>
+    <p>Broken Moon is an Android game by Felipe Schnettler Turner. This policy explains what data is used when you play and why.</p>
+    <p>Contact: <span class="mail">felipeschnettlert@gmail.com</span></p>
+  </section>
+
+  <section>
+    <h2>Your progress</h2>
+    <p>Your progress (levels, witches, gold, crystals and options) is saved on your phone. We don’t ask for your name, email or location, and we have no servers of our own: your save never reaches us.</p>
+  </section>
+
+  <section id="nube">
+    <h2>Cloud save (optional)</h2>
+    <p>In Options &gt; Sign in with Google you can save your progress to your Google Play Games account, so you can recover it if you change phones or reinstall the game. If you don’t turn it on, nothing is saved to the cloud.</p>
+    <p>If you turn it on:</p>
+    <ul>
+      <li>Google Play Games uses your player profile (player ID, player name and avatar) to know whose save it is.</li>
+      <li>A copy of your save file is stored (the same progress that’s on your phone), along with the date and the name of the device that saved it.</li>
+      <li>The copy stays on Google’s servers, linked to your account, and only the game can read it while you’re signed in. We don’t see it or store it anywhere else.</li>
+    </ul>
+    <p>Google handles this data under its <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">privacy policy</a>.</p>
+  </section>
+
+  <section id="borrar-cuenta">
+    <h2>Deleting your account and data</h2>
+    <p>The game doesn’t create accounts of its own: the session is your Google Play Games one. To delete the data saved in the cloud:</p>
+    <ul>
+      <li>In the game: Options &gt; Delete save deletes the save on your phone and its cloud copy, and stops using the cloud.</li>
+      <li>Without the game: in the Google Play Games app, go to your profile &gt; Settings and use the option to delete your Play Games account and data: you can delete only Broken Moon’s data or your whole Play Games account.</li>
+      <li>Or email us at <span class="mail">felipeschnettlert@gmail.com</span> with the subject “Delete Broken Moon data” and we’ll help you do it.</li>
+    </ul>
+    <p>Once deleted, the cloud copy is removed right away and can’t be recovered. Anything bought with real money stays registered in Google Play and is restored when you reinstall the game.</p>
+  </section>
+
+  <section>
+    <h2>Ads</h2>
+    <p>The game shows Google AdMob ads: videos you choose to watch in exchange for rewards and, from time to time, an ad between levels. To show them, Google may collect:</p>
+    <ul>
+      <li>your device’s advertising ID,</li>
+      <li>your IP address and an approximate location derived from it,</li>
+      <li>technical device data (model, system, language),</li>
+      <li>how you interact with the ads.</li>
+    </ul>
+    <p>Google uses this data to show ads, measure them and prevent fraud. If you’re in the European Economic Area, the United Kingdom or Switzerland, the game asks for your permission before showing personalized ads, and you can change your choice in Options &gt; Ad privacy.</p>
+    <p>More information: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">how Google uses data in ads</a> and <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google’s privacy policy</a>.</p>
+    <p>If you buy “Remove ads”, the ads between levels stop. Reward videos remain available if you want to watch them.</p>
+  </section>
+
+  <section>
+    <h2>Purchases</h2>
+    <p>In-game purchases are processed by Google Play. We never see your card or payment details. The game only receives confirmation from Google of what you bought, so it can deliver it and restore it if you reinstall.</p>
+  </section>
+
+  <section>
+    <h2>Children</h2>
+    <p>Broken Moon is not directed at children under 13, and we don’t knowingly collect data from children. Ads are limited to content suitable for all audiences.</p>
+  </section>
+
+  <section>
+    <h2>Your choices</h2>
+    <ul>
+      <li>Delete your progress: Options &gt; Delete save, or uninstall the game (if you use the cloud, see <a href="#borrar-cuenta">Deleting your account and data</a>).</li>
+      <li>Stop using the cloud: Options &gt; Cloud save, then tap again to confirm.</li>
+      <li>Reset or delete your advertising ID: Android Settings &gt; Privacy &gt; Ads.</li>
+      <li>For any question or request about your data, email the contact address.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Changes</h2>
+    <p>If this policy changes, we’ll publish the new version on this same page with its date.</p>
+  </section>
+
+  <footer>Broken Moon · Felipe Schnettler Turner</footer>
+</main>
+</body>
+</html>
